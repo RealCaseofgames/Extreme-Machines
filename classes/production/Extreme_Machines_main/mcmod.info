@@ -1,0 +1,16 @@
+[
+{
+  "modid": "extremeMachines",
+  "name": "Extreme Machines",
+  "description": "These are the machines only the late gamer will use.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Caseofgames"],
+  "credits": "Caseofgames, for the development of this mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

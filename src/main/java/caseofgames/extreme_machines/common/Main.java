@@ -1,14 +1,17 @@
 package caseofgames.extreme_machines.common;
 
 import caseofgames.extreme_machines.common.util.IReference;
+import mcmultipart.api.addon.IMCMPAddon;
+import mcmultipart.api.addon.MCMPAddon;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+@MCMPAddon
 @Mod(modid = IReference.MODID, name = IReference.NAME, version = IReference.VERSION)
-public class Main {
+public class Main implements IMCMPAddon {
 
     @Mod.Instance
     public static Main instance;
